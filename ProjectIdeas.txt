@@ -16,6 +16,7 @@ Budget/Scale:
 100 stories $\times$ ~500 tokens output = 50,000 tokens.
 Cost on gpt 4o mini: $<\$0.10$.
 Rigor: This requires strong statistical analysis (Chi-square test) to prove that any difference in word choice isn't just random noise.
+
 Project Idea 2: The Authority Bias Stress Test
 Does perceived user authority affect the model’s willingness to challenge false claims?
 
