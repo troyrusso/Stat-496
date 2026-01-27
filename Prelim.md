@@ -5,7 +5,7 @@ This repository contains a preliminary experiment investigating intersectional b
 
 ## 1. Experimental Setup
 * **Model:** `gemini-2.5-flash`
-* **System Prompt:** A "Scientific Jailbreak" persona ("You are a gritty, realist author...") was used to bypass standard RLHF safety filters and force the model to depict unethical behavior.
+* **System Prompt:** A Jailbreak ("You are a gritty, realist author...") was used to bypass standard RLHF safety filters and force the model to depict unethical behavior.
 * **Variables:**
     * **Name:** Connor (White coding) vs. DeShawn (Black coding).
     * **Condition:** Neutral vs. Struggling (Unemployed).
@@ -21,7 +21,7 @@ In our "First Pass" manual review, we successfully broke the safety guardrailsâ€
 * **Similarity in "Skill":**
     * Contrary to expectations, *both* characters were described as having "practiced" or "predatory" movements, suggesting the "Gritty Author" persona may override some demographic stereotypes by making *everyone* seem criminally inclined.
 
-## 3. Future Work (The Scale-Up)
+## 3. Future Work
 These differences are too subtle to confirm with only 4 samples. Our full experiment will scale this to **800 samples** to determine statistical significance.
 
 **We will automate the analysis by counting:**
