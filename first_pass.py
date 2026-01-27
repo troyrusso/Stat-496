@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # --- CONFIGURATION ---
-GOOGLE_API_KEY = "AIzaSyAUbkzEXVIiTgc-Cre_Uw6uVaY9PT1vie4" # PASTE YOUR KEY HERE
+GOOGLE_API_KEY = "" # PASTE YOUR KEY HERE
 
 # Initialize the new Client
 client = genai.Client(api_key=GOOGLE_API_KEY)
