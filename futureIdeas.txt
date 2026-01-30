@@ -2,3 +2,4 @@ Use multiple LLMS
 Figure out how to prompt the AI to have more consistent length texts
 Prompt AI to be less biased towards stealing (immoral action)
 Potentially come up with more than 2 scenarios for the stories
+Figure out if there are ways we can extract grammar or other non word elements to get results.
