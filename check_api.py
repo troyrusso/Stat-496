@@ -2,7 +2,7 @@ from google import genai
 import time
 
 # Use your key
-client = genai.Client(api_key="AIzaSyACLaX4wFiwNszxtzBJKjZnpHCL8qeXqgQ") 
+client = genai.Client(api_key="") 
 
 print("Testing API Status...")
 try:

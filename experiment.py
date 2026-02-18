@@ -7,7 +7,7 @@ from google.genai import types
 import constants # Ensure constants.py is in the same folder
 
 # --- CONFIGURATION ---
-GOOGLE_API_KEY = "AIzaSyACLaX4wFiwNszxtzBJKjZnpHCL8qeXqgQ" # Your Key
+GOOGLE_API_KEY = "" # Your Key
 MODEL_ID = 'gemini-2.0-flash-lite-001' # The high-limit, low-cost model
 
 # --- EXPERIMENTAL VARIABLES ---
