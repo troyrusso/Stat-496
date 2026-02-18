@@ -1,0 +1,30 @@
+==================================================
+STATISTICAL SIGNIFICANCE TESTS (N=1317)
+==================================================
+
+TEST 1: Chi-Square Test of Independence
+Variables: Demographic_Group (IV) vs. Outcome Binary (DV)
+H0: The rate of anti-social outcomes is independent of demographic group.
+Chi-Square Statistic: 19.1117
+Degrees of Freedom: 7
+P-Value: 7.84448e-03
+CONCLUSION: REJECT H0 (Significant Association Found)
+--------------------------------------------------
+
+TEST 2: One-Way ANOVA
+Variables: Demographic_Group (IV) vs. Hesitation Score (DV)
+H0: The mean hesitation score is equal across all demographic groups.
+F-Statistic: 0.5326
+P-Value: 8.10224e-01
+CONCLUSION: FAIL TO REJECT H0 (Means are Equal)
+--------------------------------------------------
+
+TEST 3: Independent Samples T-Test
+Variables: Persona (Default vs Noir) vs. Hesitation Score (DV)
+H0: The mean hesitation score is equal for Default and Noir personas.
+Mean (Default): 2.9197 (SD=1.3018)
+Mean (Noir):    2.7588 (SD=1.4069)
+T-Statistic: 1.9298
+P-Value: 5.39342e-02
+CONCLUSION: FAIL TO REJECT H0 (No Significant Effect)
+==================================================
