@@ -1,0 +1,14 @@
+As generative AI tools continue to advance, such programs have the potential to become increasingly significant players in the creative fields. In particular, Large Language Models (LLMs), which are trained on large corpora of articles, fiction, and other media, are capable of generating human-like texts and stories in a time and cost efficient manner. This may encourage its further adoption by companies that haven’t already made use of AI. As such, these tools will see usage from people from a diverse set of backgrounds for a variety of creative purposes. Therefore it is imperative that research is conducted regarding the patterns and biases in AI storytelling when the models are presented with prompts that incorporate multiple demographics and storytelling scenarios.
+
+Previous studies have aimed to measure AI biases via other means. For example, a study that employed a simulated hiring process found that AI exhibits clear bias in favor of white-associated names and against black-associated names in the vast majority of cases (Wilson and Caliskan, 2024). Another study compared human and AI writing, and found that the AI was actually more progressive in its writing of gender roles than humans were (Begu\v{s}, 2024). These findings suggest that names can be used in AI prompting to measure bias in its output.
+
+This study investigates the effects of different names, scenarios, and author personas on storytelling output, which we measure using a hesitation score (whether the character struggled in their decision making), and the outcome (e.g. keeping a stolen wallet). We used different names associated with White, Black, Asian, and Hispanic demographics. In addition, we varied through multiple scenarios in which the character has to make an important decision. Finally, we prompted the AI to impersonate multiple different author personas. We used a fresh instance of the model to evaluate each story. We used a version of Google’s Gemini 2.0 called gemini-2.0-flash-lite-001, and a sample of $n=1317$ independent trials. We aim to answer the following questions:
+
+1. What is the effect of race signals on character hesitation and outcomes in stories from Gemini 2.0?
+
+2. What is the effect of different scenarios on character hesitation and outcomes in stories from Gemini 2.0?
+
+3. What is the effect of author personas on character hesitation and outcomes in stories from Gemini 2.0?
+
+
+
